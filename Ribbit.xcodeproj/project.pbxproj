@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3C39254317D526A400DC4164 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C39254217D526A400DC4164 /* CameraViewController.m */; };
-		3C40B59317D4ED9900437725 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C40B59217D4ED9900437725 /* Parse.framework */; };
 		3C40B59D17D4EE3100437725 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C40B59417D4EE3000437725 /* AudioToolbox.framework */; };
 		3C40B59E17D4EE3100437725 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C40B59517D4EE3000437725 /* CFNetwork.framework */; };
 		3C40B59F17D4EE3100437725 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C40B59617D4EE3100437725 /* CoreLocation.framework */; };
-		3C40B5A017D4EE3100437725 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C40B59717D4EE3100437725 /* libz.1.1.3.dylib */; };
 		3C40B5A117D4EE3100437725 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C40B59817D4EE3100437725 /* MobileCoreServices.framework */; };
 		3C40B5A217D4EE3100437725 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C40B59917D4EE3100437725 /* QuartzCore.framework */; };
 		3C40B5A317D4EE3100437725 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C40B59A17D4EE3100437725 /* Security.framework */; };
@@ -45,12 +43,15 @@
 		3CDDC10017D6C531004E33F9 /* icon_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDDC0FC17D6C531004E33F9 /* icon_video@2x.png */; };
 		3CDDC10317D6CC5F004E33F9 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDDC10217D6CC5F004E33F9 /* ImageViewController.m */; };
 		3CDDC10517D9358A004E33F9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDDC10417D9358A004E33F9 /* MediaPlayer.framework */; };
+		D07FB23D1A02887000156715 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D07FB23C1A02887000156715 /* libz.dylib */; };
+		D07FB23F1A02888D00156715 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07FB23E1A02888D00156715 /* Parse.framework */; };
+		D07FB2411A0288B000156715 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07FB2401A0288B000156715 /* Bolts.framework */; };
+		D07FB2431A0288B500156715 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07FB2421A0288B500156715 /* ParseFacebookUtils.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C39254117D526A400DC4164 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = ../CameraViewController.h; sourceTree = "<group>"; };
 		3C39254217D526A400DC4164 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = ../CameraViewController.m; sourceTree = "<group>"; };
-		3C40B59217D4ED9900437725 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		3C40B59417D4EE3000437725 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3C40B59517D4EE3000437725 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		3C40B59617D4EE3100437725 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -97,6 +98,10 @@
 		3CDDC10117D6CC5F004E33F9 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = ../ImageViewController.h; sourceTree = "<group>"; };
 		3CDDC10217D6CC5F004E33F9 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = ../ImageViewController.m; sourceTree = "<group>"; };
 		3CDDC10417D9358A004E33F9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D07FB23C1A02887000156715 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D07FB23E1A02888D00156715 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		D07FB2401A0288B000156715 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D07FB2421A0288B500156715 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +109,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D07FB23D1A02887000156715 /* libz.dylib in Frameworks */,
 				3CDDC10517D9358A004E33F9 /* MediaPlayer.framework in Frameworks */,
 				3C40B59D17D4EE3100437725 /* AudioToolbox.framework in Frameworks */,
 				3C40B59E17D4EE3100437725 /* CFNetwork.framework in Frameworks */,
+				D07FB23F1A02888D00156715 /* Parse.framework in Frameworks */,
+				D07FB2431A0288B500156715 /* ParseFacebookUtils.framework in Frameworks */,
 				3C40B59F17D4EE3100437725 /* CoreLocation.framework in Frameworks */,
-				3C40B5A017D4EE3100437725 /* libz.1.1.3.dylib in Frameworks */,
 				3C40B5A117D4EE3100437725 /* MobileCoreServices.framework in Frameworks */,
 				3C40B5A217D4EE3100437725 /* QuartzCore.framework in Frameworks */,
 				3C40B5A317D4EE3100437725 /* Security.framework in Frameworks */,
@@ -117,7 +124,7 @@
 				3CD50B9D17D326D900F21CA7 /* CoreGraphics.framework in Frameworks */,
 				3CD50B9917D326D900F21CA7 /* UIKit.framework in Frameworks */,
 				3CD50B9B17D326D900F21CA7 /* Foundation.framework in Frameworks */,
-				3C40B59317D4ED9900437725 /* Parse.framework in Frameworks */,
+				D07FB2411A0288B000156715 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +170,10 @@
 		3CD50B9717D326D900F21CA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D07FB2421A0288B500156715 /* ParseFacebookUtils.framework */,
+				D07FB2401A0288B000156715 /* Bolts.framework */,
+				D07FB23E1A02888D00156715 /* Parse.framework */,
+				D07FB23C1A02887000156715 /* libz.dylib */,
 				3CDDC10417D9358A004E33F9 /* MediaPlayer.framework */,
 				3C40B59417D4EE3000437725 /* AudioToolbox.framework */,
 				3C40B59517D4EE3000437725 /* CFNetwork.framework */,
@@ -173,7 +184,6 @@
 				3C40B59A17D4EE3100437725 /* Security.framework */,
 				3C40B59B17D4EE3100437725 /* StoreKit.framework */,
 				3C40B59C17D4EE3100437725 /* SystemConfiguration.framework */,
-				3C40B59217D4ED9900437725 /* Parse.framework */,
 				3CD50B9817D326D900F21CA7 /* UIKit.framework */,
 				3CD50B9A17D326D900F21CA7 /* Foundation.framework */,
 				3CD50B9C17D326D900F21CA7 /* CoreGraphics.framework */,
@@ -382,7 +392,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
@@ -399,7 +410,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
